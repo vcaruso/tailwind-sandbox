@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Interactivity</title>
+  </head>
+  <body>
+    <!-- Hover State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500">
+      Submit
+    </button>
+
+    <!-- Focus State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500">
+      Submit
+    </button>
+
+    <!-- Active State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-yellow-500">
+      Submit
+    </button>
+
+    <!-- Styling based on parent state -->
+    <a href="" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">This is the card text</p>
+    </a>
+    <!-- Pseudo Classes -->
+    <ul>
+      <li  class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 1</li>
+      <li  class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 2</li>
+      <li  class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 3</li>
+      <li  class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 4</li>
+      <li  class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 5</li>
+    </ul>
+    <!-- Appearance -->
+    <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="appearance-none">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+    <br/>
+    <!-- Cursor -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-not-allowed">
+      Submit
+    </button>
+    <p class="cursor-pointer">cursor-pointer</p>
+    <!-- Resize -->
+
+    <!-- User Select -->
+    <div class="select-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, autem? Nemo fuga labore fugiat unde hic excepturi incidunt quidem animi?</div>
+    <div class="select-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, autem? Nemo fuga labore fugiat unde hic excepturi incidunt quidem animi?</div>
+    <div class="select-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, autem? Nemo fuga labore fugiat unde hic excepturi incidunt quidem animi?</div>
+    <div class="select-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, autem? Nemo fuga labore fugiat unde hic excepturi incidunt quidem animi?</div>
+
+    <!-- Smooth Scroll Example -->
+    <a href="#item" class="block my-6">Goto Item</a>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum asperiores aliquam ab? Dolorem quibusdam enim quos doloribus veritatis quaerat, consequatur rem quis, porro sint fugit illum officiis voluptatum tempore in nisi dolorum incidunt quas, recusandae dolore suscipit? Eum, quisquam nostrum, voluptates sint error voluptas dolorum accusantium est esse neque aut ipsam! Reiciendis voluptatum asperiores totam rerum minima doloremque amet quod velit deleniti autem porro, ipsam at quos atque quisquam accusamus molestiae saepe delectus quibusdam eum debitis ipsa modi cupiditate. Doloremque minima quae id voluptates consequuntur culpa non ipsum dignissimos, mollitia tenetur vero est deserunt debitis assumenda, excepturi molestiae dolor officia ratione facilis provident placeat ab! Placeat hic tempora officiis minima assumenda laborum vero, voluptatum magnam temporibus nulla sequi, veniam aspernatur labore, nihil unde quaerat nemo nobis ducimus. Atque, inventore quae? Saepe, eligendi. Similique voluptatem, atque iure id labore adipisci ea natus quos itaque minima quas voluptates iste, ipsa maiores eligendi facere inventore expedita nostrum perferendis consequatur. Aliquam voluptatem possimus eaque consectetur expedita, ab officiis consequuntur nostrum quod labore error a, eligendi veritatis, unde doloremque ex id tempora magni ducimus. Atque assumenda nemo harum natus. Quia modi harum ipsa nemo, voluptatibus debitis mollitia eligendi quod suscipit rem molestias cupiditate dicta? Optio dolorem officiis voluptatum magnam voluptates nobis illum, iure cum aperiam esse aliquam facere. Praesentium in beatae ut velit alias molestias assumenda delectus dignissimos nam explicabo. Quidem modi odio magni neque nostrum necessitatibus aspernatur aut iure praesentium pariatur dignissimos dolorem enim dolor, maiores nobis molestiae aliquid quisquam soluta sit. Saepe quasi, consequuntur porro, dolores, laudantium nobis suscipit impedit expedita facere fugit aliquid praesentium. Dolorum esse dolorem harum, fuga tempora quia saepe explicabo, eius porro officiis quaerat aspernatur unde aliquam, consequuntur illum accusamus quis sit. Eos enim sequi voluptatum expedita ducimus? Laudantium amet fugit explicabo mollitia quos nulla nemo nisi voluptatibus nostrum. Atque voluptatum explicabo ut eos odio tempore aperiam obcaecati autem laborum fugit. Fugiat, necessitatibus nisi aperiam repudiandae exercitationem veniam laudantium. Ea nam beatae nemo id debitis. Expedita, quia rem odio, rerum totam unde eveniet minus molestiae atque excepturi fuga quis quasi veritatis similique suscipit consequuntur ipsa? Maiores ducimus iusto minima fugiat qui cum sint dolor, nisi assumenda asperiores odit omnis voluptatibus nam recusandae totam modi consectetur eveniet sapiente unde veritatis? Atque error beatae porro aliquid unde reprehenderit odit libero doloremque deleniti. Magnam asperiores nostrum vero, quia illum a ratione quibusdam libero tempora fugiat nobis laboriosam alias, itaque impedit, consequuntur id.
+    </p>
+    <div id="item"></div>
+
+  </body>
+</html>
+
+<!-- Cursor
+  cursor-auto	          cursor: auto;
+  cursor-default	      cursor: default;
+  cursor-pointer	      cursor: pointer;
+  cursor-wait	          cursor: wait;
+  cursor-text	          cursor: text;
+  cursor-move	          cursor: move;
+  cursor-help	          cursor: help;
+  cursor-not-allowed	  cursor: not-allowed;
+  cursor-none	          cursor: none;
+  cursor-context-menu	  cursor: context-menu;
+  cursor-progress	      cursor: progress;
+  cursor-cell	          cursor: cell;
+  cursor-crosshair	    cursor: crosshair;
+  cursor-vertical-text	cursor: vertical-text;
+  cursor-alias	        cursor: alias;
+  cursor-copy	          cursor: copy;
+  cursor-no-drop	      cursor: no-drop;
+  cursor-grab	          cursor: grab;
+  cursor-grabbing	      cursor: grabbing;
+  cursor-all-scroll	    cursor: all-scroll;
+  cursor-col-resize	    cursor: col-resize;
+  cursor-row-resize	    cursor: row-resize;
+  cursor-n-resize	      cursor: n-resize;
+  cursor-e-resize	      cursor: e-resize;
+  cursor-s-resize	      cursor: s-resize;
+  cursor-w-resize	      cursor: w-resize;
+  cursor-ne-resize	    cursor: ne-resize;
+  cursor-nw-resize	    cursor: nw-resize;
+  cursor-se-resize	    cursor: se-resize;
+  cursor-sw-resize	    cursor: sw-resize;
+  cursor-ew-resize	    cursor: ew-resize;
+  cursor-ns-resize	    cursor: ns-resize;
+  cursor-nesw-resize	  cursor: nesw-resize;
+  cursor-nwse-resize	  cursor: nwse-resize;
+  cursor-zoom-in	      cursor: zoom-in;
+  cursor-zoom-out	      cursor: zoom-out;
+-->
